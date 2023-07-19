@@ -71,7 +71,8 @@ if __name__ == '__main__':
         "Text Files": (".txt", ".in", ".out"),
         "PDF": ".pdf",
         "Programs": ".exe",
-        "Others": ""
+        "Others": "",
+        "Folders": ""
     }
     try:
         create_folders(directories, directory_path)
